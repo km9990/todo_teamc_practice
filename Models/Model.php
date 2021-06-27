@@ -23,6 +23,10 @@ class Model
         // 実行するSQL
         $stmt = $this->db_manager->dbh->prepare('SELECT * FROM ' . $this->table . ' ORDER BY created DESC');
 
+        $stmt->execute();
+        $task = $stmt->fetchAll();
+
+        return $task;
       
     }
 
