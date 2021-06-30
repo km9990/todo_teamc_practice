@@ -24,9 +24,9 @@ class Model
         $stmt = $this->db_manager->dbh->prepare('SELECT * FROM ' . $this->table . ' ORDER BY created DESC');
 
         $stmt->execute();
-        $task = $stmt->fetchAll();
+        $tasks = $stmt->fetchAll();
 
-        return $task;
+        return $tasks;
       
     }
 
