@@ -1,7 +1,7 @@
 <?php
 
 //ファイルの読み込み
-require_once('Models/Task.php');
+require_once('./Models/Task.php');
 
 // データの受け取り
 $title = $_POST['title'];
