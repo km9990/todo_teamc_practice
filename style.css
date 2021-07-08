@@ -166,8 +166,8 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   list-style: none;
-  margin-left: 130px;
 }
 
 .card-text-right a {
