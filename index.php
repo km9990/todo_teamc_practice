@@ -10,7 +10,6 @@ $task = new Task();
 $tasks = $task->getAll();
 
 
-
 ?>
 
 <!DOCTYPE html>
