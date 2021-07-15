@@ -61,7 +61,7 @@ $tasks = $task->getAll();
         <?php foreach($tasks as $task): ?>
         <div class="main-content">
             <div class="main-content-card">
-                <img src="#" class="card-img" alt="...">
+                <img src="./summer.gif" class="card-img" alt="...">
                 <div class="card-body">
                     <div class="card-content">
                     <h5 class="card-title"> <?= $task["title"]; ?> </h5>
