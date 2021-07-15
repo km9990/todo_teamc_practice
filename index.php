@@ -3,6 +3,7 @@
 // DB接続
 
 require_once('./Models/Task.php');
+require_once('function.php');
 
 // ファイルの読み込み
 $task = new Task();
@@ -64,17 +65,17 @@ $tasks = $task->getAll();
                 <img src="#" class="card-img" alt="...">
                 <div class="card-body">
                     <div class="card-content">
-                    <h5 class="card-title"> <?= $task["title"]; ?> </h5>
+                    <h5 class="card-title"> <?= h($task["title"]); ?> </h5>
                     
                     <p class="card-text">
-                        <?= $task["contents"];?>
+                        <?= h($task["contents"]);?>
                     </p>
                     </div>
                     <div class="card-text-right">
-                        <a href="edit.php?id=<?= $task['id']; ?>" class="btn text-success">EDIT</a>
+                        <a href="edit.php?id=<?= h($task['id']); ?>" class="btn text-success">EDIT</a>
                         <form action="delete.php" method="post">
 
-                            <input type="hidden" name="id" value="<?= $task['id']; ?>">
+                            <input type="hidden" name="id" value="<?= h($task['id'] ); ?>">
                             <button type="submit" class="btn text-danger">DELETE</button>
                         </form>
                     </div>
