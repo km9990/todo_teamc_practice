@@ -13,7 +13,7 @@ $task = $task->findById($id);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>編集 | Todoアプリ</title>
-    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <div class="container-fulid">
