@@ -14,12 +14,11 @@
     <div class="container-fuild">
         <div class="row">
             <nav class="navbar navbar-dark bg-dark">
-                <a href="index.php" class="navbar-brand">Todo_teamC</a>
+                <a href="index.php" class="navbar-brand">Todo</a>
         </div>
     </div>
 
     <div class="row mt-4 px-4">
-        <div class="row_2">
         <div class="col-12">
             <form action="store.php" method="post">
                 <div class="form-group">
@@ -34,7 +33,6 @@
                     <button type="submit" class="btn btn-primary">POST</button>
                 </div>
             </form>
-        </div>
         </div>
     </div>
 
