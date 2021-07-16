@@ -11,8 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Chathura&display=swap" rel="stylesheet">
 </head>
 <body>
-<<<<<<< Updated upstream
-=======
     <div class="container-fuild">
         <div class="row">
             <nav class="navbar navbar-dark bg-dark">
@@ -39,7 +37,6 @@
         </div>
         </div>
     </div>
->>>>>>> Stashed changes
 
 
 </body>
