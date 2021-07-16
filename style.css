@@ -120,6 +120,11 @@ body {
   color: #fff;
 }
 
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .main-content {
   width: 25%;
   max-height: 180px;
