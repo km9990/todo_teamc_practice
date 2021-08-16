@@ -3,39 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  background-color: #f0f8ff;
+  background-color: #F0F8FF;
 }
-
 header {
   height: 60px;
   width: 100%;
   padding: 0px 15px; 
-  background-color: #f1f1f1;
+  background-color: #F1F1F1;
   top: 0;
   z-index: 10;
   display: flex;
 }
-
 header a {
   text-decoration: none;
   color: black;
 }
-
 .header-left {
   margin-left: 30px;
   margin-top: 5px;
   font-size: 35px;
   font-family: 'Plaster', cursive;
 }
-
 .header-right {
   margin: 0 0 0 auto;
 }
-
 .header-content {
   display: flex;
   list-style: none;
@@ -45,7 +39,6 @@ header a {
   font-size: 30px;
   font-weight: bold;
 }
-
 .header-content li a {
   color: #000000;
   border-bottom:  2px solid white;
@@ -56,7 +49,6 @@ header a {
   padding: 0 20px;
   position: relative;
 }
-
 .header-content li ::after {
   position: absolute;
   bottom: 10px;
@@ -69,22 +61,18 @@ header a {
   transform-origin: center top;
   transition: transform 0.75s;
 }
-
 .header-content li a:hover::after {
   transform: scale(1, 1);
 }
-
 body {
   background: url() no-repeat center center fixed; 
   background-size: cover;
 }
-
 .form-inline {
   width: 100%;
   position: relative;
   display: flex;
 }
-
 .form {
   width: 100%;
   border: 3px solid #00B4CC;
@@ -96,11 +84,9 @@ body {
   color: #9DBFAF;
   margin-top: 10px;
 }
-
 .form:focus{
   color: #00B4CC;
 }
-
 .btn-outline {
   width: 40px;
   height: 36px;
@@ -113,59 +99,49 @@ body {
   font-size: 20px;
   margin-top: 10px;
 }
-
 .btn-outline .icon{
   top: 50%;
   z-index: 1;
   color: #fff;
 }
-
 .main {
   display: flex;
   flex-wrap: wrap;
 }
-
 .main-content {
   width: 25%;
   max-height: 180px;
   margin: 50px 50px;
 }
-
 .main-content:hover {
   transform: translateY(-5px);
   box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
   transition: all .5s;
 }
-
 .main-content-card {
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
 }
-
 .card-img {
   border-radius: 5px 5px 0 0;
   max-width: 100%;
   height: auto;
 }
-
 .card-content {
   padding: 8px 20px 20px;
 }
-
 .card-title {
   font-size: 1.6em;
   color: #333;
   font-weight: 700;
 }
-
 .card-text {
   color: #777;
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 0.2em;
 }
-
 .card-text-right {
   border-top: 1px solid #eee;
   padding: 20px;
@@ -174,21 +150,17 @@ body {
   justify-content: flex-end;
   list-style: none;
 }
-
 .card-text-right a {
   text-decoration: none;
-  color: #4f96f6;
+  color: #4F96F6;
   margin: 0 10px;
 }
-
 .card-text-right a:hover {
-  color: #6bb6ff;
+  color: #6BB6FF;
 }
-
 .card-content p {
   margin-bottom:0;
 }
-
 .text-danger {
   border: none;
   outline: none;
@@ -197,4 +169,53 @@ body {
   font-size: 16.3px;
   cursor: pointer;
 }
-
+.navbar {
+  height: 60px;
+  background-color: #F1F1F1;
+}
+.navbar-brand {
+  font-family: 'Plaster', cursive;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+}
+.row_2 {
+  width: 100%;
+  padding: 30px 50px;
+  font-family: 'Chathura', cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+#title {
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#contents {
+  width: 100%;
+  height: 300px;
+  margin-top: 5px;
+}
+.justify-content-end {
+  text-align: right;
+  width: 100%;
+}
+.btn-primary {
+  background-color: #00B4CC;
+  color: #fff;
+  font-size: 20px;
+  width: 120px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: 3px solid #00B4CC;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: tomato;
+  cursor: pointer;
+}
